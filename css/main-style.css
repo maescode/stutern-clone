@@ -1,0 +1,296 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px 20px;
+    font-family: 'Inter', sans-serif;
+    position: ;
+}
+
+nav * {
+    color: gray !important;
+}
+
+.nav-bg {
+    background-color: #e6f8f9
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.dropdown-menu {
+    width: 250px;
+    box-shadow: 0px 0px 4px 0px rgb(212, 212, 212);
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+header {
+    background-color: #e6f8f9;
+    height: 100vh;
+}
+
+section {
+    padding: 100px 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1b1642;
+}
+
+.header-text {
+    position: relative;
+    top: 50%
+}
+
+.header-text h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #1b1642;
+}
+
+.take-course {
+    padding: 10px 30px;
+    background-color: #1bd3c6;
+    color: #1b1642;
+    border: 0px;
+    font-size: 18px;
+    outline: none;
+}
+
+.take-course:hover {
+    background-color: #18bbb0;
+    color: #1b1642;
+}
+
+.header-image {
+    position: relative;
+    top: 50%;
+}
+
+.header-image img {
+    margin-left: auto;
+    display: block;
+    width: 80%;
+    height: inherit;
+}
+
+.nav-item {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#login {
+    border: solid 2px black !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.section-header h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1b1642;
+}
+
+.profile {
+    list-style: none;
+}
+
+.profile h3 {
+    font-weight: 800;
+}
+
+.profile img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.profile {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.testimony-text {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.testimony-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.testimoneer img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.testimoneer {
+    display: flex;
+    justify-content: center;
+}
+
+.testimoneer-name {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.testimoneer-name h4 {
+    padding-top: 20px;
+    font-weight: 600;
+    color: #1bd0c2;
+}
+
+.testimoneer-name p {
+    font-size: 14px;
+}
+
+.trustees {
+    display: flex;
+    justify-content: center;
+}
+
+.trustees img {
+    display: block;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 90%;
+}
+
+#hire {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1bd3c6;
+    min-height: 550px;
+    border-radius: 20px;
+}
+
+#hire h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#hire button {
+    font-size: 17px !important;
+    font-weight: 500;
+    border: 0px !important;
+    outline: none !important;
+    margin: 5px 0px;
+}
+
+#footer ul li:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    color: #797492;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #1b1642;
+}
+
+#footer li {
+    font-weight: 300;
+    background-color: inherit;
+}
+
+@media(max-width:490px) {
+    .header-text {
+        position: relative;
+        top: 40%;
+        padding-left: 20px;
+    }
+    .header-text h1 {
+        font-family: 'Epilogue', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        max-width: 300px;
+        color: #1b1642;
+    }
+    .content h2 {
+        font-family: 'Epilogue', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #1b1642;
+    }
+    #image-wrapper {
+        display: none;
+    }
+    #login {
+        margin: 10px 0px;
+    }
+    .content img {
+        margin: auto;
+    }
+    .testimony-text {
+        text-align: center;
+        margin: auto;
+        width: 95%;
+    }
+    .testimony-text h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .section-header h2 {
+        font-size: 28px;
+    }
+    .trustees {
+        display: flex;
+        flex-direction: column;
+    }
+    .trustees img {
+        margin: 7px auto;
+        border: solid 0.5px red;
+    }
+    #hire h2 {
+        font-size: 32px;
+    }
+    #hire button {
+        font-size: 14px;
+        border: 0px !important;
+        outline: none !important;
+    }
+}
